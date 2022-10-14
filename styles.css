@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
 :root {
-    --font-family: "Roboto", sans-serif;
+    --font-family: 'Signika', sans-serif;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
     --bg-color: #fcfcfc;
-    --primary-color: #4756df;
+    --primary-color: #4b4c5c;
     --secondary-color: #ff7235;
     --primary-shadow: #8b8eaf;
     --bottom-margin: 0.5rem;
@@ -89,7 +89,10 @@ nav ul li {
     max-width: 68.75rem;
     margin: auto;
 }
-/* ADD .HERO IMG {} HERE */
+.hero img {
+    height: 37.5rem;
+    width: 37.5rem
+}
 
 .bio {
     width: 25rem;
@@ -116,4 +119,88 @@ nav ul li {
 .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem
+}
+.skills {
+    max-width: 68.75 rem;
+    margin:auto;
+    text-align: center;
+    margin-top: 1rem;
+    }
+.skill-header {
+    margin-bottom: 1rem;
+}
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact {
+    margin-top: 2rem;
+    }
+.contact h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+}
+.contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+.contact-form-container label {
+    line-height: 2.7em;
+    font-weight: var(--bold-font);
+    color: var(--primary-color)
+}
+.contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+}
+.contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset var(--primary-color);
+    font-size: 0.0875rem;
+    outline: none;
+}
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: var(--primary-color);
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: var(--bold-font);
+    transition: var(--transition);
+}
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2 rem 0 0;
+}
+.scroll-up {
+    position:fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+.up-arrow {
+    width: 3rem;
+    height: 3rem
 }

@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 
     <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Favicons -->
     <link
@@ -48,12 +51,17 @@
 
     <!-- Hero Section -->
     <section class="hero" id="about">
-      <!-- ADD IMAGE HERE -->
+      <img src="my portfolio/assets/images/hero-image.jpg"
+      alt="jane-doe"
+      loading="lazy"
+      class="hero-img"
+      />
+
       <div>
         <!-- ADD CLASS TO DIV -->
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
-          I'm an amazing and talented person who never ever gets panic attacks. I'm from Philadelphia.
+          I'm an amazing and talented person. I'm from Philadelphia.
         </p>
       </div>
     </section>
@@ -71,20 +79,85 @@
     <!-- Skills section -->
     <section class="skills" id="skills">
       <h2 class="skill-header">My Top Skills</h2>
+      
+      <div class="skills-wrapper">
+        <div class="first-set animate"
+      </div>
 
       
     </section>
 
     <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class=""projects-title">Some of my Projects</h2>
+
+    </section>
 
     <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form-container">
+        <form action="" method="POST">
+          <div class="form-control">
+          <label for="name">Name</label>
+          <input
+          type="text"
+          id="name"
+          name="sender-name"
+          placeholder="Enter Your Name"
+          class="input-field"
+          required
+          />
+          </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+           type="email"
+           id="email"
+           name="sender-email"
+           placeholder="Enter Your Email"
+           class="input-field"
+           required
+           />
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea
+          id="message"
+          cols="60"
+          rows="10"
+          placeholder="Enter Your Message"
+          name="message"
+          class="input-field"
+          required>
+          </textarea>
+        </div>
+        <input
+        type="submit"
+        value="Submit"
+        id="submit-btn"
+        class="submit-btn"
+        />
+      </form>
+    </div>
+  </div>
+</section>
+      
 
     <!-- Social accounts - Fixed to the right -->
 
     <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+      <img src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"/>
+    </i>
 
     <!-- Footer section -->
-
+    <footer>
+      <p class="copy">Copyright 2022</p>
+      <p class="copy"><a href="https://www.freepik.com/free-vector/telecommuting-concept_7938245.htm?query=work&collectionId=689181&&position=8&from_view=collections">Image by pikisuperstar</a> on Freepik</p>
+    </footer>
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
 
