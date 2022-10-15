@@ -238,17 +238,19 @@ footer {
     nav {
         padding: 1.5rem 1 rem
     }
+    nav h1 {
+        text-align: center;
+    }
     nav ul {
         position: fixed;
         background-color: var(--bg-color);
-        flex-direction: column;
+        flex-direction: row;
         top: 86px;
         left: 10%;
         width: 80%;
-        text-align: center;
-        transform: translateX(120%);
-        transition: transform 0.5s ease-in;
+        text-align: center;        
     }
+   
     nav ul li {
         margin: 8px;
     }
@@ -270,6 +272,9 @@ footer {
     .bio {
         margin-top: -7rem;
         width: 20.5rem;
+    }
+    .bio-title {
+        text-align: center;
     }
     .more-about {
         margin-top: 2rem;
@@ -299,11 +304,6 @@ footer {
       }
     
 
-
-
-
-
-      
     @media screen and (max-width: 420px) {
         .hero img {
           height: 37.5rem;
