@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,49 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap" rel="stylesheet">
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="styles.css" />
 
-   
-  
 
-    <!-- Animate CSS CDN -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    /> -->
+
     <title>Leslie Naylor | Web Developer</title>
   </head>
 
   <body>
-    <!-- Navbar -->
     <nav>
-        <h1>Leslie Naylor</h1>
-        
-        
-        <ul class="navigation">
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-        <button class="burger-menu" id="burger-menu">
-            <ion-icon class="bars" name="menu-outline"></ion-icon>
-        </button>
-    </nav>    
+      <h1>Leslie Naylor</h1>
+
+
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="about">
-      <img class="hero"
-        src="my portfolio/assets/images/avatar-green.jpg"
-        alt="avatar"        
-        />
+      <img class="hero" src="my portfolio/assets/images/avatar-green.jpg" alt="avatar" />
 
       <div>
-        <!-- ADD CLASS TO DIV -->
+
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
           Hi, I'm Leslie! I'm a new developer in Philadelphia. I love learning new things.
@@ -61,58 +52,34 @@
     <!-- More about -->
     <section class="more-about">
       <h2>More About Me</h2>
-      <p class="more-about">Before becoming a developer, I worked in education, mental health, and behavioral science.</p>
+      <p class="more-about">Before becoming a developer, I worked in education, mental health, and behavioral science.
+      </p>
       <div>
         <ul class="more-about">
-          <li>2019-2022 Behavior Specialist Consultant, Therapist</li>
+          <li>2019-2022 Behavior Consultant, Therapist</li>
           <li>2019 Early Intervention Teacher</li>
           <li>2017 High School Counselor (Intern)</li>
           <li>2016 Elementary School Counselor (Intern)</li>
           <li>2011-2015 Legal Assistant</li>
           <li>2004-2009 US Air Force</li>
         </ul>
-            
-            
-            
-      
-        
+
       </div>
     </section>
 
     <!-- Skills section -->
     <section class="skills" id="skills">
       <h2 class="skill-header">My Top Skills</h2>
-      
+
       <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-          src="my portfolio/assets/icons/python.svg"
-          alt=""
-          loading="lazy"
-          class="icon icon-card"
-        />
-          <img
-            src="my portfolio/assets/icons/html5.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-          src="my portfolio/assets/icons/css3-alt.svg"
-          alt=""
-          loading="lazy"
-          class="icon icon-card"
-        />
-        <img
-          src="my portfolio/assets/icons/square-js.svg"
-          alt=""
-          loading="lazy"
-          class="icon icon-card"
-        />
-          
+        <img src="my portfolio/assets/icons/python.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="my portfolio/assets/icons/html5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="my portfolio/assets/icons/css3-alt.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="my portfolio/assets/icons/square-js.svg" alt="" loading="lazy" class="icon icon-card" />
+
       </div>
 
-      
+
     </section>
 
     <!-- Projects section -->
@@ -124,75 +91,74 @@
     <!-- Contact section -->
     <section class="contact" id="contact">
       <h2>Contact Me</h2>
-      <div class="contact-form-container">
+      <a href="https://www.linkedin.com/in/leslienaylor" target="_blank">
+        <img src="my portfolio/assets/icons/linkedin.svg" alt="linkedin" loading="lazy" class="socicon">
+        <span>https://www.linkedin.com/in/leslienaylor</span>
+      </a>
+      <a href="https://github.com/leslie7139/leslie7139.github.io" target="_blank">
+        <img src="my portfolio/assets/icons/github-icon.svg.svg" alt="github" loading="lazy" class="socicon">
+        <span>leslie7139.github.io</span>
+      </a>
+      <a href="mailto:LeslieLynnNaylor@gmail.com" target="_blank">
+        <img src="my portfolio/assets/icons/envelope-icon.svg" alt="github" loading="lazy" class="socicon">
+        <span>LeslieLynnNaylor@gmail.com</span>
+      </a>
+    </section>
+    <!-- <div class="contact-form-container">
         <form action="" method="POST">
           <div class="form-control">
-          <label for="name">Name</label>
-          <input
-          type="text"
-          id="name"
-          name="sender-name"
-          placeholder="Enter Your Name"
-          class="input-field"
-          required
-          />
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
           </div>
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input
-           type="email"
-           id="email"
-           name="sender-email"
-           placeholder="Enter Your Email"
-           class="input-field"
-           required
-           />
-        </div>
-        <div class="form-control">
-          <label for="message">Message</label>
-          <textarea
-          id="message"
-          cols="60"
-          rows="10"
-          placeholder="Enter Your Message"
-          name="message"
-          class="input-field"
-          required>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required>
           </textarea>
-        </div>
-        <input
-        type="submit"
-        value="Submit"
-        id="submit-btn"
-        class="submit-btn"
-        />
-      </form>
-    </div>
-  </div>
-</section>
-      
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+      </div> -->
+
+
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
       <a href="https://www.linkedin.com/in/leslienaylor" target="_blank">
-        <img src="my portfolio/assets/icons/linkedin.svg"
-        alt="linkedin"
-        loading="lazy"
-        class="socicon">
+        <img src="my portfolio/assets/icons/linkedin.svg" alt="linkedin" loading="lazy" class="socicon">
       </a>
+      <a href="https://github.com/leslie7139/leslie7139.github.io" target="_blank">
+        <img src="my portfolio/assets/icons/github-icon.svg.svg" alt="github" loading="lazy" class="socicon">
+      </a>
+      <div id="hover-div">
+        <a href="mailto:LeslieLynnNaylor@gmail.com" target="_blank">
+          <img src="my portfolio/assets/icons/envelope-icon.svg" alt="github" loading="lazy" class="socicon">
+      </div>
+      </a>
+
     </div>
 
-    
+
 
     <!-- Footer section -->
     <footer>
       <p class="copy">Copyright 2022</p>
-      <p class="copy"><a href="https://www.freepik.com/free-vector/telecommuting-concept_7938245.htm?query=work&collectionId=689181&&position=8&from_view=collections">Image by pikisuperstar</a> on Freepik</p>
+      <p class="copy"><a
+          href="https://www.freepik.com/free-vector/telecommuting-concept_7938245.htm?query=work&collectionId=689181&&position=8&from_view=collections">Image
+          by pikisuperstar</a> on Freepik</p>
     </footer>
     <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+    <!-- <script src="assets/js/app.js"></script> -->
 
     <!-- Ion icons scripts -->
-  
+
   </body>
+
 </html>
