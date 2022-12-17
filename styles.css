@@ -4,7 +4,9 @@
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: #96a65d;
+    /* --bg-color: #96a65d; */
+    --bg-color: #96a65dbc;
+
     --primary-color: #192738;
     --secondary-color: #D94E4E;
     --primary-shadow: #8b8eaf;
@@ -40,7 +42,10 @@ a:hover {
 }
 
 body {
-    font-family: var(--font-family)
+    font-family: var(--font-family);
+    background-color: #DFDBE5;
+    background-image: var(--bg-image);
+
 }
 
 nav {
@@ -146,6 +151,7 @@ nav ul li {
     padding: 1rem 6rem;
     border-style: double;
     border-width: .5em;
+    padding-bottom: 0.2em;
 }
 
 .more-about h2 {
@@ -287,7 +293,7 @@ nav ul li {
 }
 
 footer {
-    background-color: #d94e4ec8;
+    background-color: #d94e4e88;
     padding: 1.25rem;
     text-align: center;
     margin: 2 rem 0 0;
@@ -332,8 +338,6 @@ footer {
     }
 
 
-
-
     .hero {
         margin-top: -4rem;
         flex-direction: column;
@@ -365,6 +369,7 @@ footer {
 
     .more-about {
         padding: 1rem;
+        padding-bottom: 0.2em;
 
 
     }
