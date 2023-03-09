@@ -5,10 +5,10 @@
     --bold-font: 700;
     --bolder-font: 900;
     /* --bg-color: #96a65d; */
-    --bg-color: #96a65dbc;
+    --bg-color: #2169746b;
 
     --primary-color: #192738;
-    --secondary-color: #D94E4E;
+    --secondary-color: #8C5043;
     --primary-shadow: #8b8eaf;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -130,11 +130,12 @@ nav ul li {
 
 }
 
-.bio {
+.bio-text {
     width: 25rem;
-    padding: 0.625rem;
+    padding: 1rem;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    font-size: 1.2em;
+    /* box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
 }
 
 .bio h1 {
@@ -148,7 +149,7 @@ nav ul li {
 
 .more-about {
     background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 1rem 3rem;
     border-style: double;
     border-width: .5em;
     padding-bottom: 0.2em;
@@ -162,23 +163,24 @@ nav ul li {
 .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
-    text-align: center;
+    text-align:justify;
     border-style: none;
 }
 
-.more-about ul {
+/* .more-about ul {
     border-style: none;
 
-}
+} */
 
-.more-about ul li {
+/* .more-about ul li {
     list-style-type: circle;
     text-align: center;
     line-height: 25px;
     list-style-position: inside;
 
-}
+} */
 
+/* *******Skills******* */
 .skills {
     max-width: 68.75 rem;
     margin: auto;
@@ -203,7 +205,7 @@ nav ul li {
 }
 
 .icon-card {
-    background-color: #d94e4e95;
+    background-color: #8C5043;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
@@ -214,6 +216,7 @@ nav ul li {
     background-color: var(--bg-color);
     padding: 32px 0;
     margin-top: 2rem;
+    text-align: center;
 }
 
 .projects-title {
@@ -232,7 +235,6 @@ nav ul li {
     text-align: center;
     background-image: var(--bg-image);
     background-color: #DFDBE5;
-
 
 }
 
@@ -293,7 +295,7 @@ nav ul li {
 }
 
 footer {
-    background-color: #d94e4e88;
+    background-color: #8c504389;
     padding: 1.25rem;
     text-align: center;
     margin: 2 rem 0 0;
