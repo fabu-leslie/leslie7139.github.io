@@ -138,6 +138,11 @@ nav ul li {
     /* box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
 }
 
+.bio-text-bold {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 .bio h1 {
     margin-bottom: var(--bottom-margin);
 }
@@ -153,6 +158,8 @@ nav ul li {
     border-style: double;
     border-width: .5em;
     padding-bottom: 0.2em;
+    font-size: 1.1em;
+    margin: 0 35px;
 }
 
 .more-about h2 {
