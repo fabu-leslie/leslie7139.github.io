@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 nav ul {
-    display: flex;
+    /* display: flex; */
     gap: 1.9rem;
     padding-top: 1.5em;
 
@@ -382,8 +382,11 @@ footer {
     .hero {
         margin-top: -4rem;
         flex-direction: column;
+        align-items: center;
         gap: 0;
     }
+
+
 
     .hero img {
         height: 27.5rem;
@@ -392,9 +395,14 @@ footer {
         margin-top: 5em;
     }
 
-    .bio {
+    /* .bio {
         margin-top: -7rem;
         width: 20.5rem;
+    } */
+
+    .bio {
+        margin-top: 2em;
+        text-align: center;
     }
 
     .bio-title {
@@ -411,7 +419,6 @@ footer {
     .more-about {
         padding: 1rem;
         padding-bottom: 0.2em;
-
 
     }
 
